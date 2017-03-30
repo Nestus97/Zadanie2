@@ -140,13 +140,15 @@ void elementMenu(vector<List> &all, List* some)
         showList(some);
         cout<<"Co chcialbys zrobic?: ";
         cin>>decision;
+
         switch(decision)
         {
         case 1:
             cout<<"Podaj wartosc: ";
             cin>>value;
             some->addElem(0,value);
-            showList(some);
+            //showList(some);
+
         break;
         case 2:
             cout<<"Podaj wartosc: ";

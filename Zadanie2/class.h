@@ -31,6 +31,8 @@ public:
     void changeLastElement(Element* last=NULL); //zmienia ostatni Element
     friend void showAllLists(vector<List> &all);//pokazuje listy
     void nullFirstLast();
+    void zeroHowMany();
+    void addHowMany(int i);
     void operator=(List ls);
     Element* operator[](int id);
     friend ostream& operator<<(ostream& out, List* some);

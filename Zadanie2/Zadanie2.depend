@@ -27,3 +27,17 @@
 	<cstdlib>
 	"class.h"
 
+1490867720 source:c:\users\kamil\desktop\zadanie2\zadanie2\class.cpp
+	<iostream>
+	<vector>
+	"class.h"
+
+1490885408 c:\users\kamil\desktop\zadanie2\zadanie2\class.h
+	<iostream>
+
+1490884633 source:c:\users\kamil\desktop\zadanie2\zadanie2\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	"class.h"
+

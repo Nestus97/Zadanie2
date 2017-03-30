@@ -331,7 +331,7 @@ void List::nullFirstLast()
     lastElement=NULL;
 }
 
-void operator+(List &first, List &second)
+void operator+(List &first, List &second) // pierwsza jest dluzsza o dlugosc drugiej, druga jest pusta
 {
     int listSize = first.listSize();
     Element* one;
@@ -341,13 +341,16 @@ void operator+(List &first, List &second)
     {
         two->idUp();
     }
+    int aSize = second.listSize();
     one=first.takeLastElement();
     two=second.takeFirstElement();
     one->changeNext(two);
-
     two=second.takeLastElement();
     first.changeLastElement(two);
+    first.addHowMany(aSize);
     second.nullFirstLast();
+
+    second.zeroHowMany();
 }
 
 void operator-(List &first, List &second)
@@ -382,4 +385,14 @@ ostream& operator<<(ostream& out, List* some)
 {
 out << some->getName() <<endl;
 return out;
+}
+
+void List::zeroHowMany()
+{
+    howMany=0;
+}
+
+void List::addHowMany(int i)
+{
+    howMany=howMany+i;
 }
