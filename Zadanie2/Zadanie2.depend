@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1490832234 source:c:\users\kamil\desktop\zadanie2\class.cpp
+	<iostream>
+	<vector>
+	"class.h"
+
+1490831789 c:\users\kamil\desktop\zadanie2\class.h
+	<iostream>
+
+1490831185 source:c:\users\kamil\desktop\zadanie2\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	"class.h"
+
+1490866624 source:c:\users\kamil\desktop\projekt\zadanie2\class.cpp
+	<iostream>
+	<vector>
+	"class.h"
+
+1490866609 c:\users\kamil\desktop\projekt\zadanie2\class.h
+	<iostream>
+
+1490866202 source:c:\users\kamil\desktop\projekt\zadanie2\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	"class.h"
+
